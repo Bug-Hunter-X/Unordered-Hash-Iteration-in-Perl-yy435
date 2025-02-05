@@ -1,0 +1,1 @@
+use Tie::IxHash; my %hash = (a => 1, b => 2, c => 3); tie %hash, 'Tie::IxHash'; foreach my $key (keys %hash) { print "$key => $hash{$key}\n"; }
