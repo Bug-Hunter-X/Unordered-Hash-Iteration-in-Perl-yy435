@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Perl where the order of elements when iterating through a hash is not guaranteed to be the same as the order in which they were inserted.  The solution shows how to maintain insertion order using a different data structure.
